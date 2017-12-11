@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>project3</title>
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
+
+</head>
+
+<body>
+  <div class="container">
+    <!-- first row of musical buttons -->
+    <div class="row">
+      <div class="col-1-md">
+      </div>
+
+      <div class="col-2-md">
+        <button type="button" id="btn1" class="press">A4 on</button>
+      </div>
+
+      <div class="col-2-md">
+        <button type="button" id="btn2" class="press">D5 on</button>
+      </div>
+
+      <div class="col-2-md">
+        <button type="button" id="btn3" class="press">C5 on</button>
+      </div>
+
+      <div class="col-2-md">
+        <button type="button" id="btn4" class="press">F5 on</button>
+      </div>
+
+      <div class="col-2-md">
+        <button type="button" id="btn5" class="press">G4 on</button>
+      </div>
+
+      <div class="col-1-md">
+      </div>
+    </div>
+
+    <!--first row of "off" buttons-->
+    <div class="row">
+      <div class="col-1-md">
+      </div>
+
+      <div class="col-2-md">
+        <button type="button" id="offbtn1" class="press">A4 off</button>
+      </div>
+
+      <div class="col-2-md">
+        <button type="button" id="offbtn2" class="press">D5 off</button>
+      </div>
+
+      <div class="col-2-md">
+        <button type="button" id="offbtn3" class="press">C5 off</button>
+      </div>
+
+      <div class="col-2-md">
+        <button type="button" id="offbtn4" class="press">F5 off</button>
+      </div>
+
+      <div class="col-2-md">
+        <button type="button" id="offbtn5" class="press">G4 off</button>
+      </div>
+
+      <div class="col-1-md">
+      </div>
+    </div>
+
+    <!-- the bpm slider -->
+    <!-- <div id="slidecontainer">
+      <input type="range" min="10" max="1000" step="10" value="300" data-orientation="vertical">
+    </div> -->
+    <!--  -->
+
+  </div>
+  <!-- requiring Tone.js -->
+  <script src="https://gweb-musiclab-site.appspot.com/static/js/Tone.min.js"></script>
+  <!-- requiring noUISlider -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/8.5.1/nouislider.min.js">
+  </script>
+  <!-- requiring ajax -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fetch/1.0.0/fetch.min.js"></script>
+  <!-- requiring web audio api -->
+  <script src="https://cdn.rawgit.com/mohayonao/web-audio-api-shim/master/build/web-audio-api-shim.min.js"></script>
+  <!-- requiring jquery -->
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <!-- our sound.js file -->
+  <script src="../js/sound.js"></script>
+  <script src="../js/app.js"></script>
+</body>
+
+</html>
