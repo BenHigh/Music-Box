@@ -1,20 +1,3 @@
-var sampler = new Tone.Sampler({
-	"a" : "../sounds/a.mp3",
-}, function(){
-	//sampler will repitch the closest sample
-	sampler.triggerAttack("a", "8n");
-});
-
-
-function makeSampler() {
-  return new Tone.Sampler({
-    "a" : "../sounds/a.mp3",
-  }, function(){
-    //sampler will repitch the closest sample
-    sampler.triggerAttack("a", "8n");
-  });
-}
-
 // function to create the synth
 function makeSynth() {
 
@@ -63,29 +46,12 @@ let synth2 = makeSynth();
 let synth3 = makeSynth();
 let synth4 = makeSynth();
 let synth5 = makeSynth();
-let sample1 = makeSampler();
 
 
 // starts the timeline and defines bpm
 Tone.Transport.start();
 Tone.Transport.bpm.value = 120;
 
-// note 1
-// document.querySelector("#btn1").addEventListener("click", function(){
-//
-// var note = new Tone.Event(function(time, pitch) {
-//   synth1.triggerAttackRelease(pitch, "8n", time);
-// }, "D5");
-//
-// // set the note to loop every half measure
-// note.set({
-//   "loop": true,
-//   "loopEnd": "1m"
-// });
-//
-// note.start(0);
-//
-// });
 
 // note1
 document.querySelector("#btn1").addEventListener("click", function(){
@@ -101,11 +67,10 @@ note.start();
 note.loop = 100;
 note.loopEnd = "1.7m";
 // to stop the note
-document.querySelector("#btn1").addEventListener("click", function(){
+document.querySelector("#offbtn1").addEventListener("click", function(){
 note.stop();
 });
 });
-
 
 
 // note2
@@ -126,6 +91,7 @@ document.querySelector("#offbtn2").addEventListener("click", function(){
 note.stop();
 });
 });
+
 
 // note3
 document.querySelector("#btn3").addEventListener("click", function(){
@@ -185,16 +151,6 @@ document.querySelector("#offbtn5").addEventListener("click", function(){
 note.stop();
 });
 });
-
-
-// var slider = document.getElementById("myRange");
-// var output = document.getElementById("demo");
-// output.innerHTML = slider.value; // Display the default slider value
-//
-// // Update the current slider value (each time you drag the slider handle)
-// slider.oninput = function() {
-//     output.innerHTML = this.value;
-// };
 
 
 // defining the VOLUME

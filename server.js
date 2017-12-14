@@ -12,7 +12,7 @@ var bodyParser = require("body-parser");
 var app = express();
 var PORT = process.env.PORT || 3000;
 
-//var db = require("./models");
+var db = require("./models");
 
 
 // Sets up the Express app to handle data parsing

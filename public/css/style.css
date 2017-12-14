@@ -4,15 +4,22 @@
     width: 90%;
     padding-bottom: 30%; /* = width for a 1:1 aspect ratio */
     margin:30%;
-    /*overflow:hidden;*/
 }
 
-/*#btn1:active {
-  background-color: blue;
-}*/
+
+
+#save {
+  position: relative;
+  left: 200px;
+}
+
+#load {
+position: relative;
+left: 350px;
+}
 
 .press{
-  border: 1px; 
+  border: 1px;
 }
 
 #btn1, #offbtn1 {

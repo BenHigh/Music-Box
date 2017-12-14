@@ -1,15 +1,13 @@
 $("#btn1").on("click", function(event) {
   event.preventDefault();
 
-  // make a newVolunteers obj
-  var newVolunteers = {
-    //
+  var newNotes = {
     note_name: "A4",
     active: true
   };
 
   // send an AJAX POST-request with jQuery
-  $.post("/api/sounds", newSound)
+  $.post("/api/sounds", newNotes)
   // on success, run this callback
     .done(function(data) {
     // log the data we found

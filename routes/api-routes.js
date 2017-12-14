@@ -5,11 +5,13 @@ module.exports=function(app) {
     console.log(req.body);
     console.log("post hit route api/sounds");
 
-    var notes = req.body;
+    var Note = req.body;
 
-    db.Notes.create({
-      note_name: notes.note_name,
-      active: notes.active
+    db.Note.create({
+      note_name: Note.note_name,
+      active: Note.active
     });
-  });
+res.json(true);
+});
+
 };

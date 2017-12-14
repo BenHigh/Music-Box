@@ -1,9 +1,9 @@
 module.exports = function(sequelize, DataTypes) {
-var Notes = sequelize.define("Notes", {
+var Note = sequelize.define("Note", {
   note_name: DataTypes.STRING,
-  active: BOOLEAN,
+  active: DataTypes.BOOLEAN,
 }, {
   timestamps: true
 });
-return Notes;
+return Note;
 };
