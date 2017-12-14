@@ -1,5 +1,6 @@
 $("#btn1").on("click", function(event) {
   event.preventDefault();
+  console.log("click");
 
   var newNotes = {
     note_name: "A4",
@@ -13,6 +14,5 @@ $("#btn1").on("click", function(event) {
     // log the data we found
     console.log(data);
     // tell the user we're adding a volunteer with an alert window
-    alert("Adding volunteer...");
   });
 });
