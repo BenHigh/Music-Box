@@ -1,12 +1,13 @@
-// Initialize a new plugin instance for all
-    // e.g. $('input[type="range"]') elements.
-    // $('input[type="range"]').rangeslider();
+$(document).ready(function() {
 
-    // // Destroy all plugin instances created from the
-    // // e.g. $('input[type="range"]') elements.
-    // $('input[type="range"]').rangeslider('destroy');
-    //
-    // // Update all rangeslider instances for all
-    // // e.g. $('input[type="range"]') elements.
-    // // Usefull if you changed some attributes e.g. `min` or `max` etc.
-    // $('input[type="range"]').rangeslider('update', true);
+  // $(".press").toggle(function() {
+  //   console.log("First handler for .toggle() called.");
+  // }, function() {
+  //   console.log("Second handler for .toggle() called.");
+  // });
+
+  // $('.press').on("click", function(){
+  //   $('.active').not(this).removeClass('active');
+  //   $(this).toggleClass('active');
+  // });
+  });

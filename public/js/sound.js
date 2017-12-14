@@ -101,7 +101,7 @@ note.start();
 note.loop = 100;
 note.loopEnd = "1.7m";
 // to stop the note
-document.querySelector("#offbtn1").addEventListener("click", function(){
+document.querySelector("#btn1").addEventListener("click", function(){
 note.stop();
 });
 });

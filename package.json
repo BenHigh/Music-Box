@@ -1,0 +1,32 @@
+{
+  "name": "project3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mysql": "^2.15.0",
+    "mysql2": "^1.5.1",
+    "path": "^0.12.7",
+    "rangeslider.js": "^2.3.1",
+    "sequelize": "^4.28.1",
+    "tone": "^0.11.11",
+    "web-audio-api": "^0.2.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnranck/project3.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johnranck/project3/issues"
+  },
+  "homepage": "https://github.com/johnranck/project3#readme"
+}
