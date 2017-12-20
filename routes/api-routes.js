@@ -28,6 +28,14 @@ module.exports=function(app) {
   });
 
 
+  app.get("/api/:song?", function(req,res){
+    db.Song.findAll({})
+    .then(function(dbSong){
+      console.log(dbSong);
+      return res.json(dbSong);
+    });
+  });
+
   // app.get("/api/song", function(req,res){
   //
   // });

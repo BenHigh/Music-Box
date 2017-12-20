@@ -14,26 +14,38 @@
     margin:30%;
 }
 
+#clear {
+  position: relative;
+  left: 95px;
+  bottom: 11px;
+}
+
+#description {
+  position: relative;
+  margin-left: 700px;
+  bottom: 200px;
+}
+
 #input-text{
   position: relative;
   left: 40px;
-  top: 30px;
+  top: 25px;
 }
 
 #input {
   position: relative;
-  top: 20px;
+  top: 18px;
 }
 
 #save {
   position: relative;
-  left: 200px;
+  left: 250px;
   bottom: 11px;
 }
 
 #load {
 position: relative;
-left: 350px;
+left: 380px;
 bottom: 11px;
 }
 
