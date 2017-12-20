@@ -1,46 +1,147 @@
 .press {
     float:center;
     position: relative;
-    width: 90%;
+    width: 50px;
+    padding-bottom: 30%; /* = width for a 1:1 aspect ratio */
+    margin: 30%;
+}
+
+.offpress {
+    float:center;
+    position: relative;
+    width: 50px;
     padding-bottom: 30%; /* = width for a 1:1 aspect ratio */
     margin:30%;
 }
 
+#input-text{
+  position: relative;
+  left: 40px;
+  top: 30px;
+}
 
+#input {
+  position: relative;
+  top: 20px;
+}
 
 #save {
   position: relative;
   left: 200px;
+  bottom: 11px;
 }
 
 #load {
 position: relative;
 left: 350px;
+bottom: 11px;
 }
 
-.press{
+/* .press{
   border: 1px;
-}
+} */
 
-#btn1, #offbtn1 {
+#btn1, #offbtn1{
   background-color: lightyellow;
 }
 
-#btn2, #offbtn2 {
+#btn2, #offbtn2{
   background-color: lightblue;
 }
 
-#btn3, #offbtn3 {
+#btn3, #offbtn3{
   background-color: salmon;
 }
 
-#btn4, #offbtn4 {
+#btn4, #offbtn4{
   background-color: red;
 }
 
-#btn5, #offbtn5 {
+#btn5, #offbtn5{
   background-color: yellow;
 }
+
+#btn6, #offbtn6{
+  background-color: lightyellow;
+}
+
+#btn7, #offbtn7{
+  background-color: lightblue;
+}
+
+#btn8, #offbtn8{
+  background-color: salmon;
+}
+
+#btn9, #offbtn9{
+  background-color: red;
+}
+
+#btn10, #offbtn10{
+  background-color: yellow;
+}
+
+#btn11, #offbtn11{
+  background-color: lightyellow;
+}
+
+#btn11, #offbtn11{
+  background-color: lightblue;
+}
+
+#btn12, #offbtn12{
+  background-color: salmon;
+}
+
+#btn13, #offbtn13 {
+  background-color: lightyellow;
+}
+
+#btn14, #offbtn14 {
+  background-color: lightblue;
+}
+
+#btn15, #offbtn15 {
+  background-color: salmon;
+}
+
+#btn16, #offbtn16 {
+  background-color: red;
+}
+
+#btn17, #offbtn17 {
+  background-color: yellow;
+}
+
+#btn18, #offbtn18 {
+  background-color: lightyellow;
+}
+
+#btn19, #offbtn19 {
+  background-color: lightblue;
+}
+
+#btn20, #offbtn20 {
+  background-color: salmon;
+}
+
+#btn21, #offbtn21 {
+  background-color: red;
+}
+
+#btn22, #offbtn22 {
+  background-color: yellow;
+}
+
+#btn23, #offbtn23 {
+  background-color: lightblue;
+}
+
+#btn24, #offbtn24 {
+  background-color: salmon;
+}
+
+
 
 
 body {
