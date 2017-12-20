@@ -42,10 +42,6 @@ return new Tone.DuoSynth({
 
 // creates new iteration of synth
 let synth1 = makeSynth();
-let synth2 = makeSynth();
-let synth3 = makeSynth();
-let synth4 = makeSynth();
-let synth5 = makeSynth();
 
 
 // starts the timeline and defines bpm
@@ -513,14 +509,8 @@ note.stop();
 });
 });
 
-
 // defining the VOLUME
 var vol = new Tone.Volume(-10);
 
-
 // handling the outputs
 synth1.chain(vol, Tone.Master);
-synth2.chain(vol, Tone.Master);
-synth3.chain(vol, Tone.Master);
-synth4.chain(vol, Tone.Master);
-synth5.chain(vol, Tone.Master);
