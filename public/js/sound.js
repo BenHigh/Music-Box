@@ -510,7 +510,7 @@ note.stop();
 });
 
 // defining the VOLUME
-var vol = new Tone.Volume(-10);
+var vol = new Tone.Volume(20);
 
 // handling the outputs
 synth1.chain(vol, Tone.Master);

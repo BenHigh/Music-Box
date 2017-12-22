@@ -1,1 +1,2 @@
-# project3
+#
+A modern music box using the Web Audio API and Tone.js. Tone.js, being an extension of the Web Audio API, was mainly used to generate the tones and have them loop in a way that creates phase changes between all looped sounds. 
