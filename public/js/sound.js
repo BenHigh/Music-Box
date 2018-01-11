@@ -46,7 +46,7 @@ let synth1 = makeSynth();
 
 // starts the timeline and defines bpm
 Tone.Transport.start();
-Tone.Transport.bpm.value = 120;
+Tone.Transport.bpm.value = 100;
 
 
 // note1
@@ -510,7 +510,15 @@ note.stop();
 });
 
 // defining the VOLUME
-var vol = new Tone.Volume(20);
+var vol = new Tone.Volume(0);
+
+// slider javascript
+// var slider = document.getElementById("myRange");
+// var output = document.getElementById("demo");
+// output.innerHTML = slider.value;
+// slider.oninput = function(){
+//   output.innerHTML = this.value;
+// };
 
 // handling the outputs
 synth1.chain(vol, Tone.Master);
